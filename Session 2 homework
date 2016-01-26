@@ -1,0 +1,25 @@
+_exercises  one 
+pounds=eval(input("Enter First Number "))
+
+kilograms = pounds*0.454
+print(kilograms)
+
+_exercises  2
+subtotal=eval(input("How much was the bill? "))
+Tip=eval(input("What precentage gratuity would you like to leave?"))
+
+gratuity= subtotal*(Tip/100)
+total= subtotal + gratuity
+
+print("gratuity is", gratuity)
+
+print("the total bill is ", total)
+_exercises 3
+
+output=eval(input("what is your desired return?"))
+years=eval(input("how many years do you intend to invest it for?"))
+interest =eval(input("what interest rate do you expect?"))
+
+deposit= (output)/((1+interest)^(years))
+
+print("you will need to invest ", deposit, "over ", years, "to get your desired return of ", output)
